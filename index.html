@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>红方块</title>
+    <link rel="stylesheet" href="/src/styles/app.css" />
+    <script src="https://mcp.figma.com/mcp/html-to-design/capture.js" async></script>
+  </head>
+  <body class="public">
+    <div class="folio folio-top">
+      <header class="folio-header">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span id="brand-name">红方块</span>
+        </a>
+        <nav class="site-nav" id="site-nav"></nav>
+      </header>
+
+      <section class="folio-hero" id="top" data-ds-status="designer-review">
+        <h1 class="display hero-name" id="hero-name">红方块</h1>
+        <p class="folio-kicker" id="hero-role">B 端产品设计师</p>
+        <p class="hero-en">Product Designer</p>
+        <div class="portrait" id="portrait"></div>
+        <p class="folio-lead" id="hero-intro"></p>
+      </section>
+    </div>
+
+    <section class="work-band" id="works" data-ds-status="designer-review">
+      <p class="work-ghost" aria-hidden="true">PORTFOLIO</p>
+      <div class="folio work-band-inner">
+        <p class="section-en">/SELECTED WORK</p>
+        <h2 class="folio-heading">精选作品</h2>
+        <div
+          class="filter-bar filter-pills"
+          id="filter-bar"
+          data-ds-component="Radio"
+          data-ds-variant="group"
+          data-ds-status="designer-review"
+        ></div>
+        <div id="work-list" class="feature-grid"></div>
+      </div>
+    </section>
+
+    <div class="folio">
+      <section class="folio-section" id="services">
+        <p class="section-en">/SERVICE</p>
+        <h2 class="folio-heading">我提供的服务</h2>
+        <p class="folio-lead">主业是 B 端产品，也做标识、影像与绘画。</p>
+        <div class="service-capsules" id="capability-row"></div>
+      </section>
+
+      <section class="folio-section" id="experience">
+        <p class="section-en">/EXPERIENCE</p>
+        <h2 class="folio-heading">经历</h2>
+        <div class="experience-preview" id="experience-preview"></div>
+        <p class="folio-lead">
+          <a href="/about.html">查看完整经历</a>
+        </p>
+      </section>
+    </div>
+
+    <footer class="talk" data-ds-status="designer-review">
+      <p class="folio-kicker talk-kicker">/CONTACT</p>
+      <h2 class="display display-on-dark">HAVE A PROJECT<br />IN MIND?</h2>
+      <p class="talk-copy">有项目想聊，直接写信。</p>
+      <a class="talk-mail" id="connect-mail" href="mailto:">邮箱</a>
+      <p class="talk-admin"><a href="/admin.html">管理</a></p>
+    </footer>
+    <script type="module" src="/src/home.js"></script>
+  </body>
+</html>

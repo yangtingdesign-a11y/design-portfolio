@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>关于我</title>
+    <link rel="stylesheet" href="/src/styles/app.css" />
+    <script src="https://mcp.figma.com/mcp/html-to-design/capture.js" async></script>
+  </head>
+  <body class="public">
+    <div class="folio">
+      <header class="folio-header">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span id="brand-name">红方块</span>
+        </a>
+        <nav class="site-nav" id="site-nav"></nav>
+      </header>
+
+      <section class="folio-hero">
+        <p class="folio-kicker" id="hero-role">B 端产品设计师</p>
+        <h1 class="display">关于我</h1>
+        <div class="portrait" id="portrait"></div>
+        <p class="folio-lead" id="hero-intro"></p>
+      </section>
+
+      <section class="folio-section">
+        <h2 class="folio-heading">工作经历</h2>
+        <div class="timeline" id="jobs"></div>
+      </section>
+
+      <section class="folio-section">
+        <h2 class="folio-heading">作品经历</h2>
+        <div class="timeline" id="practice"></div>
+      </section>
+
+      <section class="folio-section" id="contact">
+        <h2 class="folio-heading">联系方式</h2>
+        <p class="folio-lead" id="contact-location"></p>
+        <div class="contact-list" id="contact-list"></div>
+      </section>
+    </div>
+
+    <footer class="talk">
+      <p class="folio-kicker talk-kicker">红方块</p>
+      <h2 class="display display-on-dark">保持联系</h2>
+      <a class="talk-mail" id="connect-mail" href="mailto:">邮箱</a>
+      <p class="talk-admin"><a href="/admin.html">管理</a></p>
+    </footer>
+    <script type="module" src="/src/about.js"></script>
+  </body>
+</html>
