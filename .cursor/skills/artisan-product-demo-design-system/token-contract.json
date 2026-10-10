@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "contractVersion": "1.0.0",
+  "sourceOfTruth": {
+    "name": "Artisan Design System 3.0",
+    "figmaFileKey": "Ka55lQXH0Sjy2DOUO8kVbP",
+    "figmaUrl": "https://www.figma.com/design/Ka55lQXH0Sjy2DOUO8kVbP/Artisan-Design-System-3.0?node-id=0-1",
+    "extractedAt": "2026-09-10",
+    "mode": "Light",
+    "policy": "Figma is the only source of truth. This contract is a demo-stage subset."
+  },
+  "color": {
+    "text-primary": {"cssVar":"--text-text-primary","value":"#000000","figmaVariable":"Text/text-primary"},
+    "text-secondary": {"cssVar":"--text-text-secondary","value":"#4E5969","figmaVariable":"Text/text-secondary"},
+    "text-tertiary": {"cssVar":"--text-text-tertiary","value":"#999999","figmaVariable":"Text/text-tertiary"},
+    "text-disabled": {"cssVar":"--text-text-disabled","value":"#D9D9D9","figmaVariable":"Text/text-disabled"},
+    "text-inverse": {"cssVar":"--text-text-inverse","value":"#FFFFFF","figmaVariable":"Text/text-inverse"},
+    "bg-page": {"cssVar":"--background-bg-page","value":"#F5F7FA","figmaVariable":"Background/bg-page"},
+    "bg-surface": {"cssVar":"--background-bg-surface","value":"#FFFFFF","figmaVariable":"Background/bg-surface"},
+    "bg-subtle": {"cssVar":"--background-bg-subtle","value":"#F5F7FA","figmaVariable":"Background/bg-subtle"},
+    "fill-2": {"cssVar":"--background-fill-2","value":"#EEEEEE","figmaVariable":"Background/fill-2"},
+    "fill-3": {"cssVar":"--background-fill-3","value":"#E6EAEF","figmaVariable":"Background/fill-3"},
+    "fill-4": {"cssVar":"--background-fill-4","value":"#D9D9D9","figmaVariable":"Background/fill-4"},
+    "action-primary": {"cssVar":"--action-action-primary","value":"#005CF1","figmaVariable":"Action/action-primary"},
+    "action-hover": {"cssVar":"--action-action-hover","value":"#0046B3","figmaVariable":"Action/action-hover"},
+    "action-active": {"cssVar":"--action-action-active","value":"#002D80","figmaVariable":"Action/action-active"},
+    "action-disabled": {"cssVar":"--action-action-disabled","value":"#A8C8FF","figmaVariable":"Action/action-disabled"},
+    "success": {"cssVar":"--state-success","value":"#00C27D","figmaVariable":"State/success"},
+    "success-hover": {"cssVar":"--state-success-hover","value":"#007F55","figmaVariable":"State/success-hover"},
+    "success-active": {"cssVar":"--state-success-active","value":"#005F40","figmaVariable":"State/success-active"},
+    "danger": {"cssVar":"--state-danger","value":"#F27C78","figmaVariable":"State/danger"},
+    "danger-hover": {"cssVar":"--state-danger-hover","value":"#E24D48","figmaVariable":"State/danger-hover"},
+    "danger-active": {"cssVar":"--state-danger-active","value":"#C22D28","figmaVariable":"State/danger-active"},
+    "warning": {"cssVar":"--state-warning","value":"#F9A063","figmaVariable":"State/warning"},
+    "warning-hover": {"cssVar":"--state-warning-hover","value":"#D97706","figmaVariable":"State/warning-hover"},
+    "warning-active": {"cssVar":"--state-warning-active","value":"#B45309","figmaVariable":"State/warning-active"},
+    "info": {"cssVar":"--state-info","value":"#73767A","figmaVariable":"State/info"},
+    "overlay-mask": {"cssVar":"--overlay-mask-bg","value":"rgba(29,33,41,0.6)","figmaVariable":"Overlay/mask-bg"}
+  },
+  "typography": {
+    "fontFamily": {"cssVar":"--typography-font-family-title","value":"PingFang SC, Source Han Sans SC, Microsoft YaHei, Helvetica Neue, Arial, sans-serif","figmaVariables":["Typography/font-family/title/01-pingfang-sc","Typography/font-family/title/02-source-han-sans-sc","Typography/font-family/title/03-microsoft-yahei","Typography/font-family/title/04-helvetica-neue","Typography/font-family/title/05-arial","Typography/font-family/title/06-sans-serif"]},
+    "weights": {"regular":{"cssVar":"--typography-font-weight-regular","value":400},"medium":{"value":500,"source":"Figma Text Style naming; no standalone FLOAT variable"},"semibold":{"cssVar":"--typography-font-weight-semibold","value":600},"extrabold":{"cssVar":"--typography-font-weight-extrabold","value":800}},
+    "styles": {
+      "caption": {"figmaTextStyle":"12/CN-Regular","figmaStyleKey":"be41899c0098f61cec11683c09c93821ee0ad4e8","fontSize":12,"lineHeight":20,"weight":"regular"},
+      "body": {"figmaTextStyle":"14/CN-Regular","figmaStyleKey":"595c20bcc1a973073cb5ab1805490a137dcb8eb5","fontSize":14,"lineHeight":22,"weight":"regular"},
+      "body-medium": {"figmaTextStyle":"14/CN-Medium","figmaStyleKey":"0a2dc736c1ebc7625ea46c33463643f7c855d530","fontSize":14,"lineHeight":22,"weight":"medium"},
+      "title-sm": {"figmaTextStyle":"16/CN-Medium","figmaStyleKey":"683ad76513273b92633552af0ee812c35c2a65b5","fontSize":16,"lineHeight":24,"weight":"medium"},
+      "title-md": {"figmaTextStyle":"20/CN-Medium","figmaStyleKey":"d219eea2489ffd0bd96c1a31eefe616ff952ae79","fontSize":20,"lineHeight":28,"weight":"medium"},
+      "title-lg": {"figmaTextStyle":"24/CN-Medium","figmaStyleKey":"3f229cacec0dce16d5ebd0009d5a01d567993f92","fontSize":24,"lineHeight":32,"weight":"medium"}
+    }
+  },
+  "spacing": {"2":2,"4":4,"8":8,"12":12,"16":16,"20":20,"24":24,"32":32,"40":40,"48":48,"64":64},
+  "radius": {"none":0,"sm":4,"chart-legend":6,"md":8,"lg":12,"xl":16,"full":999},
+  "border": {
+    "colors": {"light":"#EEEEEE","default":"#E6EAEF","control":"#D9D9D9","strong":"#999999"},
+    "widths": [],
+    "note": "No standalone border-width token was found; do not invent one as a DS token."
+  },
+  "shadow": {
+    "level-0": {"cssVar":"--shadow-level-0","value":"none"},
+    "level-1": {"cssVar":"--shadow-level-1","value":"0 1px 5px 0 rgba(78,89,105,0.10)","figmaEffectStyle":"shadow-01","figmaStyleKey":"82942fab0a35c310175840dd207e6fbea31b992a"},
+    "level-2": {"cssVar":"--shadow-level-2","value":"0 6px 18px 0 rgba(78,89,105,0.14)","figmaEffectStyle":"shadow-02","figmaStyleKey":"09ce366d0a5206c3256eda77d0dd3ea835ea9c2c"},
+    "level-3": {"cssVar":"--shadow-level-3","value":"0 10px 32px 0 rgba(78,89,105,0.18)","figmaEffectStyle":"shadow-03","figmaStyleKey":"447c38a89692345d26ed85c0b66e75cdc4728202"}
+  },
+  "controlHeight": {"mini":24,"small":28,"medium":32,"large":36,"extraLarge":40,"inputExtra":48,"defaultButton":36,"defaultInput":36,"tag":22},
+  "size": {"modal":{"s":400,"m":600,"l":800,"xl":1000,"xxl":1200},"container":{"minWidth":1800,"maxWidth":2200},"grid":{"columns":12,"gutter":24},"pagePadding":30},
+  "usage": {"preferSemanticColors":true,"allowOnlyDeclaredTokensForFoundationValues":true,"unavailableCategoriesMustNotBeInvented":true}
+}

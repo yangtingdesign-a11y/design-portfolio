@@ -1,0 +1,21 @@
+{
+  "contractVersion":"1.0.0",
+  "idGrammar":"cmp-<component>-<variant>-<size>",
+  "normalization":{"主要按钮":"primary","次要按钮":"secondary","虚框按钮":"dashed","线框按钮":"outline","文本按钮":"text","标准":"default","危险":"danger","警告":"warning","成功":"success","超大":"xl","大":"l","中":"m","小":"s","迷你":"xs","默认":"default","悬停":"hover","聚焦":"focus","激活":"active","禁用":"disabled"},
+  "requiredAttributes":["data-ds-id","data-ds-component","data-ds-variant"],
+  "conditionalAttributes":["data-ds-size","data-ds-state","data-ds-status"],
+  "components": [
+    {"type":"Button","idPattern":"cmp-button-{type}-{size}","defaultId":"cmp-button-primary-m","sizes":["xl","l","m","s","xs"],"variants":["primary","secondary","dashed","outline","text"],"states":["default","hover","focus","active","disabled"]},
+    {"type":"Input","idPattern":"cmp-input-default-{size}","defaultId":"cmp-input-default-m","sizes":["l","m","s","xs"],"variants":["default"],"states":["default","hover","focus","disabled"]},
+    {"type":"SearchBar","idPattern":"cmp-searchbar-{variant}-{size}","defaultId":"cmp-searchbar-default-m","sizes":["l","m","s","xs"],"variants":["default","text-button","icon-button"],"states":[]},
+    {"type":"Select","idPattern":"cmp-select-{variant}-{size}","defaultId":"cmp-select-default-m","sizes":["l","m","s","xs"],"variants":["default","multiple"],"states":["default","hover","focus","disabled"]},
+    {"type":"Checkbox","idPattern":"cmp-checkbox-{variant}","defaultId":"cmp-checkbox-default","sizes":[],"variants":["default","indeterminate"],"states":["unchecked","checked","hover","disabled"]},
+    {"type":"Radio","idPattern":"cmp-radio-{variant}","defaultId":"cmp-radio-default","sizes":[],"variants":["default","button","group"],"states":["unchecked","checked","hover","disabled"]},
+    {"type":"Switch","idPattern":"cmp-switch-{variant}-{size}","defaultId":"cmp-switch-round-default","sizes":["default","s"],"variants":["round","rectangle","linear"],"states":["off","on","disabled"]},
+    {"type":"Tag","idPattern":"cmp-tag-{color}","defaultId":"cmp-tag-primary","sizes":["default"],"variants":["teal","orange","gray","blue","yellow","purple","primary","success","danger","brand-orange","cyan","pink"],"states":[]},
+    {"type":"Form","idPattern":"cmp-form-item-{layout}","defaultId":"cmp-form-item-horizontal","sizes":[],"variants":["horizontal","vertical"],"states":[]},
+    {"type":"Modal","idPattern":"cmp-modal-{size}","defaultId":"cmp-modal-m","sizes":["s","m","l","xl","xxl"],"variants":["default","confirm"],"states":[]}
+  ],
+  "outOfScope":["Drawer","Card","Empty","Table","Tabs","Pagination","business-specific composite components"],
+  "outOfScopePolicy":"Do not add data-ds-* labels in this version. Do not borrow an existing Stable DS ID."
+}
